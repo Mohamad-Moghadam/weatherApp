@@ -1,7 +1,7 @@
 const getData = async () => {
-    const data = fetch(/*api key*/)
+    const data = fetch('https://api.openweathermap.org/data/2.5/forecast/daily?q={city name}&cnt=10&appid={API key}')
     const response = await data.json
-    return 
+    console.log(response)
 }
 
 const createData = async () => {
