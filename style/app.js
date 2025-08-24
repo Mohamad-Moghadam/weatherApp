@@ -3,7 +3,3 @@ const getData = async () => {
     const response = await data.json
     console.log(response)
 }
-
-const createData = async () => {
-    const container = document.createElement("div")
-}
