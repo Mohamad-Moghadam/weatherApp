@@ -18,5 +18,14 @@
     flex-direction: column;
 }
 .btn{
+    height: 30px;
+    width: 30px;
+    align-items: center;
+    border-radius: 50px;
+    background-color:#2D2A54 ;
+    border: none;
     
+}
+.img-btn{
+    width: 80%;
 }
