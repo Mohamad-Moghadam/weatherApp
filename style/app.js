@@ -5,5 +5,5 @@ const getData = async () => {
 }
 
 const createData = async () => {
-    
+    const container = document.createElement("div")
 }
