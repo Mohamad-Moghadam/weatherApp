@@ -9,6 +9,7 @@
     height: 30px;
     border: none;
     border-radius: 50px;
+    padding-left: 5%;
 }
 .container{
     background-color:#D7D8F0 ;
@@ -19,13 +20,38 @@
 }
 .btn{
     height: 30px;
-    width: 30px;
+    width: 35px;
     align-items: center;
-    border-radius: 50px;
+    border-radius: 40px;
     background-color:#2D2A54 ;
     border: none;
+    position: relative;
+    right: 5%;
+    bottom: -1px;
     
 }
 .img-btn{
-    width: 80%;
+    width: 70%;
+}
+.span-today{
+    color: #2D2A54;
+    border-bottom: 2px solid #2D2A54;
+    display: flex;
+    width: 50px;
+    margin: 40px 0px;
+}
+.card-1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    box-shadow: 0px 1px 5px #56565d ;
+    border-radius: 20px;
+    padding: 15px;
+}
+.cards-1{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
 }
